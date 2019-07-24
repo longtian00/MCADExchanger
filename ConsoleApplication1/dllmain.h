@@ -62,6 +62,8 @@
 #include <ProCurve.h>
 #include <ProObjects.h>
 #include <ProCsys.h>
+#include <ProMotorFeat.h>
+
 
 /// Header für DOM (Xerces) 
 #include <PlatformUtils.hpp>
@@ -119,16 +121,16 @@ struct Values {
 };
 
 // Pfad von neue CAD Datei
-string ns = "..\\..\\neue";
+string ns = "..\\neue";
 
 // Pfad von Bibliothek
-string bib = "E:\\cad_Li\\PPU\\Bibliothek";
+string bib = "..\\..\\Crane\\Bibliothek";
 
 // Pafd von AML Datei
-string amlordner = "..\\..\\files";
+string amlordner = "..\\files";
 
 // inputaml
-const char* xmlFile = "..\\..\\files\\IM.aml";
+const char* xmlFile = "..\\files\\IM.aml";
 
 
 struct FRAME {

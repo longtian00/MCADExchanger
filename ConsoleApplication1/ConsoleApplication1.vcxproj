@@ -55,7 +55,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>PRO_MACHINE=36;PRO_OS=4;PRO_USE_VAR_ARGS;WIN32;_WINDOWS;CONSOLEAPPLICATION1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>F:\ptc\proe_versions\Creo5.0\Creo5.0.2.0\Creo 5.0.2.0\Common Files\protoolkit\includes;$(ProjectDir)../src;$(ProjectDir)../src/xercesc/dom;$(ProjectDir)../src/xercesc/util;$(ProjectDir)../src/xercesc/parsers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\ptc\proe_versions\Creo5.0\Creo5.0.2.0\Creo 5.0.2.0\Common Files\protoolkit\includes;$(ProjectDir)../src;$(ProjectDir)../src/xercesc/dom;$(ProjectDir)../src/xercesc/util;$(ProjectDir)../src/xercesc/parsers;F:\ptc\proe_versions\Creo5.0\Creo5.0.2.0\Creo 5.0.2.0\Common Files\protoolkit\protk_appls\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -88,18 +88,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
-      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </PrecompiledHeader>
-      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dllmain.h" />
+    <ClInclude Include="main.h" />
     <ClInclude Include="Treenode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

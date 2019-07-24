@@ -18,10 +18,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
+    <ClCompile Include="TreeNode.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="TreeNode.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="Treenode.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="dllmain.h">
+    <ClInclude Include="main.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
