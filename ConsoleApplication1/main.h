@@ -80,6 +80,7 @@ struct Values {
 
 // Pfad von neue CAD Datei
 string ns="..\\neue";
+string ab;
 
 // Pfad von Bibliothek
 string bib="E:\\cad_Li\\PPU\\Bibliothek";
